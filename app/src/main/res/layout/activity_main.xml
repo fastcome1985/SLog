@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/change_tag"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:text="change_tag" />
+
+        <Button
+            android:id="@+id/log_i_1"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="log.i" />
+
+        <Button
+            android:id="@+id/log_easy"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="easylog 普通的log" />
+
+        <Button
+            android:id="@+id/log_t"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="dlog.t 临时修改方法数与tag" />
+
+        <Button
+            android:id="@+id/log_close"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="关闭dlog" />
+
+        <Button
+            android:id="@+id/log_open"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="打开dlog" />
+
+
+        <Button
+            android:id="@+id/vlog_set"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="setVlog" />
+
+        <Button
+            android:id="@+id/vlog_append"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="appendVlog" />
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="jump" />
+
+    </LinearLayout>
+</ScrollView>
